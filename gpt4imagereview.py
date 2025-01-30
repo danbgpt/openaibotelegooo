@@ -1,6 +1,7 @@
 from openai import OpenAI
 import openai
 
+#gpt api call
 def get_image_analysis(prompt,image_url):
   client = OpenAI(api_key = 'gpt4 api key')
 
