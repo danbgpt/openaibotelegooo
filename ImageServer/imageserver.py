@@ -1,6 +1,8 @@
 from flask import Flask, send_from_directory, request
 import os
 
+#local image server 
+
 app = Flask(__name__)
 
 IMAGE_FOLDER = 'Image folder path'
