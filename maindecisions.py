@@ -2,6 +2,7 @@ import requests
 import openai
 from gpt4imagereview import *
 import time
+# main code to translate user prompts into car commands
 
 forward = "4 inches forward"
 right = "right 90 degrees"
